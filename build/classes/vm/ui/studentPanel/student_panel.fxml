@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="684.0" prefWidth="1105.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vm.ui.studentPanel.StudentPanelController">
+   <children>
+      <JFXTabPane layoutX="138.0" layoutY="100.0" prefHeight="684.0" prefWidth="1105.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <tabs>
+            <Tab text="Personal Info">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <VBox alignment="TOP_RIGHT" layoutX="34.0" layoutY="215.0" prefHeight="439.0" prefWidth="371.0">
+                           <children>
+                              <Label stylesheets="@../../../styles/loginButton.css" text="ID">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label stylesheets="@../../../styles/loginButton.css" text="Name">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label stylesheets="@../../../styles/loginButton.css" text="Semester">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label stylesheets="@../../../styles/loginButton.css" text="Year">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label stylesheets="@../../../styles/loginButton.css" text="Section">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label stylesheets="@../../../styles/loginButton.css" text="Mobile">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label stylesheets="@../../../styles/loginButton.css" text="Email">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label stylesheets="@../../../styles/loginButton.css" text="Father's Name">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label stylesheets="@../../../styles/loginButton.css" text="Mother's Name">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label stylesheets="@../../../styles/loginButton.css" text="Father's Mobile">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label stylesheets="@../../../styles/loginButton.css" text="Mother's mobile">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label stylesheets="@../../../styles/loginButton.css" text="Blood Group">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" layoutX="532.0" layoutY="215.0" prefHeight="438.0" prefWidth="427.0">
+                           <children>
+                              <Label fx:id="myId" stylesheets="@../../../styles/loginButton.css" text="Label">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="myName" stylesheets="@../../../styles/loginButton.css" text="Label">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="mySem" stylesheets="@../../../styles/loginButton.css" text="Label">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="myYear" stylesheets="@../../../styles/loginButton.css" text="Label">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="mySection" stylesheets="@../../../styles/loginButton.css" text="Label">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="myMobile" stylesheets="@../../../styles/loginButton.css" text="Label">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="myEmail" stylesheets="@../../../styles/loginButton.css" text="Label">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="myFatherName" stylesheets="@../../../styles/loginButton.css" text="Label">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="myMotherName" stylesheets="@../../../styles/loginButton.css" text="Label">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="myFatherMobile" stylesheets="@../../../styles/loginButton.css" text="Label">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="myMotherMobile" stylesheets="@../../../styles/loginButton.css" text="Label">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label fx:id="myBloodGroup" stylesheets="@../../../styles/loginButton.css" text="Label">
+                                 <VBox.margin>
+                                    <Insets bottom="3.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <ImageView fx:id="imageView" fitHeight="209.0" fitWidth="350.0" layoutX="340.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label fx:id="noImageAvailable" layoutX="414.0" layoutY="97.0" text="No Image Available" />
+                        <Button fx:id="chooseImage" layoutX="420.0" layoutY="123.0" mnemonicParsing="false" onAction="#chooseImage" text="Choose Image" />
+                        <ImageView fitHeight="605.0" fitWidth="270.0" layoutX="-12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../imgs/polygonal-background-design_1319-572.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="605.0" fitWidth="270.0" layoutX="-12.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../imgs/polygonal-background-design_1319-57.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="605.0" fitWidth="270.0" layoutX="852.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../imgs/polygonal-background-design_1319-572.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="605.0" fitWidth="270.0" layoutX="852.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../imgs/polygonal-background-design_1319-57.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Notification">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="tableView" layoutX="183.0" layoutY="81.0" prefHeight="654.0" prefWidth="1105.0" stylesheets="@../../../styles/loginButton.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columns>
+                            <TableColumn fx:id="dateCol" prefWidth="96.0" text="Date" />
+                            <TableColumn fx:id="teacherNameCol" prefWidth="224.0" text="Teacher's Name" />
+                              <TableColumn fx:id="msgTitleCol" prefWidth="302.0" text="Message Title" />
+                              <TableColumn fx:id="msgDesCol" prefWidth="482.0" text="Message Description" />
+                          </columns>
+                        </TableView>
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Result">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <JFXTextField labelFloat="true" layoutX="220.0" layoutY="149.0" prefHeight="25.0" prefWidth="303.0" promptText="Year" stylesheets="@../../../styles/loginButton.css" />
+                        <JFXTextField labelFloat="true" layoutX="220.0" layoutY="237.0" prefHeight="25.0" prefWidth="306.0" promptText="Semester" stylesheets="@../../../styles/loginButton.css" />
+                        <JFXButton layoutX="611.0" layoutY="162.0" prefHeight="80.0" prefWidth="175.0" stylesheets="@../../../styles/loginButton.css" text="Show Results" />
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Search">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <VBox layoutX="220.0" layoutY="1.0" prefHeight="653.0" prefWidth="339.0">
+                           <children>
+                              <JFXTextField fx:id="searchByIdText" labelFloat="true" promptText="Search Student by ID" stylesheets="@../../../styles/loginButton.css">
+                                 <VBox.margin>
+                                    <Insets bottom="50.0" left="30.0" right="30.0" top="80.0" />
+                                 </VBox.margin>
+                              </JFXTextField>
+                              <JFXTextField labelFloat="true" promptText="Search Student by Name" stylesheets="@../../../styles/loginButton.css">
+                                 <VBox.margin>
+                                    <Insets bottom="50.0" left="30.0" right="30.0" top="80.0" />
+                                 </VBox.margin>
+                              </JFXTextField>
+                              <JFXTextField labelFloat="true" promptText="Search Teacher by ID" stylesheets="@../../../styles/loginButton.css">
+                                 <VBox.margin>
+                                    <Insets bottom="50.0" left="30.0" right="30.0" top="80.0" />
+                                 </VBox.margin>
+                              </JFXTextField>
+                              <JFXTextField labelFloat="true" promptText="Search Teacher by Name" stylesheets="@../../../styles/loginButton.css">
+                                 <VBox.margin>
+                                    <Insets bottom="50.0" left="30.0" right="30.0" top="80.0" />
+                                 </VBox.margin>
+                              </JFXTextField>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" layoutX="553.0" layoutY="1.0" prefHeight="599.0" prefWidth="339.0">
+                           <children>
+                              <JFXButton onAction="#searchById" prefHeight="27.0" prefWidth="317.0" stylesheets="@../../../styles/loginButton.css" text="Search">
+                                 <VBox.margin>
+                                    <Insets bottom="50.0" left="30.0" right="30.0" top="65.0" />
+                                 </VBox.margin>
+                                 <graphic>
+                                    <ImageView fitHeight="52.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../imgs/285-512%20(1).png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </JFXButton>
+                              <JFXButton prefHeight="27.0" prefWidth="298.0" stylesheets="@../../../styles/loginButton.css" text="Search">
+                                 <VBox.margin>
+                                    <Insets bottom="50.0" left="30.0" right="30.0" top="30.0" />
+                                 </VBox.margin>
+                                 <graphic>
+                                    <ImageView fitHeight="52.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../imgs/285-512%20(1).png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </JFXButton>
+                              <JFXButton prefHeight="27.0" prefWidth="310.0" stylesheets="@../../../styles/loginButton.css" text="Search">
+                                 <VBox.margin>
+                                    <Insets bottom="50.0" left="30.0" right="30.0" top="60.0" />
+                                 </VBox.margin>
+                                 <graphic>
+                                    <ImageView fitHeight="52.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../imgs/25-512.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </JFXButton>
+                              <JFXButton prefHeight="27.0" prefWidth="360.0" stylesheets="@../../../styles/loginButton.css" text="Search">
+                                 <VBox.margin>
+                                    <Insets bottom="50.0" left="30.0" right="30.0" top="40.0" />
+                                 </VBox.margin>
+                                 <graphic>
+                                    <ImageView fitHeight="52.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../imgs/25-512.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </JFXButton>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab onSelectionChanged="#logout" text="Log Out">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+            </Tab>
+         </tabs>
+      </JFXTabPane>
+   </children>
+</AnchorPane>

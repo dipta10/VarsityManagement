@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="709.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vm.ui.login.LoginController">
+   <children>
+      <ImageView fitHeight="204.0" fitWidth="229.0" layoutX="247.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imgs/contacts-256.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="121.0" layoutY="249.0" prefHeight="267.0" prefWidth="457.0" spacing="20.0">
+         <children>
+            <JFXTextField fx:id="txtUsername" focusColor="#57c5f1" labelFloat="true" maxWidth="457.0" minWidth="457.0" prefHeight="47.0" prefWidth="457.0" promptText="Enter Username/ email " unFocusColor="#8a8585">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="20.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXPasswordField fx:id="txtPassword" focusColor="#57c5f1" labelFloat="true" maxWidth="457.0" minWidth="457.0" prefHeight="46.0" prefWidth="457.0" promptText="Enter password" unFocusColor="#797878">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="20.0" />
+               </VBox.margin>
+            </JFXPasswordField>
+            <Hyperlink alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="36.0" prefWidth="454.0" text="forgot password ?" textAlignment="RIGHT">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Hyperlink>
+            <Hyperlink fx:id="alertMessage" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="36.0" prefWidth="454.0" textAlignment="RIGHT" textFill="RED">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Hyperlink>
+         </children>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </VBox>
+      <JFXButton fx:id="btnLogin" buttonType="RAISED" layoutX="254.0" layoutY="551.0" onAction="#loginAction" prefHeight="45.0" prefWidth="182.0" ripplerFill="#ed5e0c" styleClass="blue-btn" text="LOGIN">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imgs/lg2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <stylesheets>
+            <URL value="@../../../../../../Downloads/hospital-fx-master/src/styles/styles.css" />
+            <URL value="@../../../styles/styles.css" />
+         </stylesheets>
+      </JFXButton>
+      <JFXSpinner fx:id="loggingProgress" layoutX="321.0" layoutY="638.0" radius="20.0" />
+   </children>
+</AnchorPane>

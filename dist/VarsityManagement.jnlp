@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="VarsityManagement.jnlp">
+  <information>
+    <title>VarsityManagement</title>
+    <vendor>dipta10</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="VarsityManagement.jar" size="2983871" download="eager" />
+    <jar href="lib/jfoenix.jar" size="2386350" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.42-bin.jar" size="996444" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="VarsityManagement" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="vm.ui.login.LoginLoader"  name="VarsityManagement" />
+  <update check="always"/>
+</jnlp>

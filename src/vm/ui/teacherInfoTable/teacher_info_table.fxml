@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="576.0" prefWidth="897.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="vm.ui.teacherInfoTable.TeacherInfoTableController">
+    <stylesheets>
+        <URL value="@teacher_info_table.css" />
+    </stylesheets>
+   <children>
+      <TableView fx:id="tableView" layoutX="68.0" layoutY="29.0" prefHeight="576.0" prefWidth="897.0" stylesheets="@../../../styles/loginButton.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="idCol" prefWidth="145.0" text="ID" />
+          <TableColumn fx:id="nameCol" prefWidth="262.0" text="Name" />
+            <TableColumn fx:id="mobileCol" prefWidth="231.0" text="Mobile" />
+            <TableColumn fx:id="emailCol" prefWidth="258.0" text="Email" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

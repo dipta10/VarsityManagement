@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="658.0" prefWidth="1017.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vm.ui.singleStudentFound.SingleStudentFoundController">
+   <children>
+      <VBox alignment="CENTER" layoutX="147.0" layoutY="214.0" prefHeight="439.0" prefWidth="371.0">
+         <children>
+            <Label text="ID">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Name">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Semester">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Year">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Section">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Mobile">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Email">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Father's Name">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Mother's Name">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Father's Mobile">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Mother's mobile">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Blood Group">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="532.0" layoutY="215.0" prefHeight="438.0" prefWidth="427.0">
+         <children>
+            <Label fx:id="myId" text="Label">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="myName" text="Label">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="mySem" text="Label">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="myYear" text="Label">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="mySection" text="Label">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="myMobile" text="Label">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="myEmail" text="Label">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="myFatherName" text="Label">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="myMotherName" text="Label">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="myFatherMobile" text="Label">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="myMotherMobile" text="Label">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="myBloodGroup" text="Label">
+               <VBox.margin>
+                  <Insets bottom="3.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <ImageView fx:id="imageView" fitHeight="209.0" fitWidth="350.0" layoutX="334.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="noImageAvailable" layoutX="414.0" layoutY="97.0" text="No Image Available" />
+   </children>
+</AnchorPane>

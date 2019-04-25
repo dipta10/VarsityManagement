@@ -1,0 +1,188 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 4, 2017, 1:11:18 PM
+    Author     : dipta10
+*/
+
+
+/*.button{
+    -fx-background-color: #0000d4;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: right;
+    -fx-font-size:16px;
+    -fx-font-weight:bold; 
+}*/
+
+.jfx-button {
+    -fx-background-color: #1976D2;
+    -fx-text-fill: white;
+    -fx-font-size: 14pt;
+}
+
+/*root pane*/
+
+/*.root {
+     -fx-background-image: url("background.jpg");
+}*/
+
+
+.root{
+    -fx-background-color: #1976D2;
+    -fx-font-size:14.0px;
+    -fx-font-family: Roboto;	
+    /*src:"/fonts/Roboto-Regular.ttf";*/
+    -swatchBlue:#3c8dbc;
+    -darkSide:#222d32;
+}
+
+
+/* button */
+
+.background {
+    -fx-background-color: #1d1d1d;
+}
+
+.jfx-button:hover {
+    -fx-background-color: #388E3C;
+}
+
+/* lable */
+.label {
+    -fx-font-size: 14pt;
+    -fx-font-family: "/fonts/Roboto-Thin.ttf";
+    -fx-text-fill: black;
+    -fx-opacity: 0.6;
+}
+
+
+
+
+ /* text field */ 
+
+
+.jfx-text-field
+{
+    -fx-background-color: transparent, white, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+    -fx-padding: 0.26667em;
+    -fx-font-size: 14pt;
+}
+ 
+.jfx-text-field:hover {
+    /*-fx-text-fill: #388E3C;*/
+    -fx-text-fill: #2E3B65;
+    -fx-text-fill: #0200AC;
+}
+
+/* text area */ 
+
+.jfx-text-area
+{
+    -fx-background-color: transparent, white, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+    -fx-padding: 0.26667em;
+    -fx-font-size: 14pt;
+}
+ 
+.jfx-text-area:hover {
+    /*-fx-text-fill: #388E3C;*/
+    -fx-text-fill: #2E3B65;
+    -fx-text-fill: #0200AC;
+}
+
+
+/*.jfx-text-field:hover
+{
+    -fx-text-fill: #2E3B65;
+    -fx-background-color: transparent, #909090, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+    -fx-padding: 0.26667em;
+    
+}*/
+ 
+.jfx-text-field:focused
+{
+    -fx-text-fill: #388E3C;
+    -fx-background-color: transparent, #009EFF, transparent, white;
+    -fx-background-radius: 40, 40, 40, 40;
+    -fx-padding: 0.166667em;
+    -fx-padding: 0.26667em;
+}
+
+
+/* table */
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: white;
+}
+.table-view .column-header:last-visible{
+    -fx-border-width: 0 0 1 0;
+}
+.table-view .column-header-background{
+    -fx-background-color: transparent;
+}
+.table-view .column-header{
+    -fx-border-width: 0 1 1 0;
+    -fx-border-color: rgba(1,1,1,0.15);
+}
+.table-view .column-header .label{
+    -fx-font-size: 14pt;
+    -fx-text-fill: -color-primary;
+    -fx-padding:16 0 16 0;
+    -fx-alignment:CENTER-LEFT;
+    -fx-font-weight:400;
+}
+.table-view .table-row-cell .table-cell{
+    -fx-border-width: 0 0 0 0;
+}
+
+.table-view .table-row-cell:selected .table-cell{
+    -fx-text-fill: -color-dark-primary;
+    -fx-border-width: 0 0 0 0;
+}
+.table-view .table-row-cell:selected{
+    -fx-background-color: rgba(0,0,0,0.04);
+    -fx-background-insets:0;
+}
+
+
+.table-view .table-row-cell{
+    -fx-background-color:transparent;
+    -fx-background-insets:0;
+}
+
+.table-view .table-column{
+    -fx-alignment:CENTER-LEFT;
+    -fx-padding:0 16 0 16;
+}
+
+.table-view .table-cell{
+    -fx-font-size: 14pt;
+}
+.table-view .table-cell .ripple-circle{
+    -fx-fill:#2196F3;
+}
+.table-view .table-cell > .text-field{
+    -fx-background-color:transparent;
+    -fx-padding:0 8 8 8;
+    -fx-background-insets: 0;
+    -fx-border-width:0 0 2 0;
+    -fx-border-color: -color-primary;
+}
+
+.table-view .corner{
+    -fx-background-color:transparent;
+}
+/*Titled Pane*/
+.blue-titledPane{
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+    -fx-font-size: 14pt;
+}
+
